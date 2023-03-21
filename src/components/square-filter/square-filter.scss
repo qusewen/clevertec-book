@@ -1,0 +1,86 @@
+.square {
+    display: flex;
+    align-items: center;
+    outline: none;
+
+    &__body {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+        filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+        background: #FFFFFF;
+        margin-right: 16px;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__active_body {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+        filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+        background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+
+        margin-right: 16px;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__body:hover {
+        filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+        background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%)
+    }
+
+    &__body:last-child {
+        margin-right: 0;
+    }
+
+    &__active {
+        background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    }
+
+    &__img {
+        width: 19px;
+    }
+}
+.square__body_mar{
+    margin-right: 0;
+}
+
+.active-filter {
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+}
+
+.anactive {
+    background: white;
+}
+
+@media (max-width:600px) {
+    .square {
+        width: 80px;
+
+        &__active {
+            &_body {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        &__body {
+            width: 32px;
+            height: 32px;
+
+            &_mar {
+                margin-right: 0;
+            }
+        }
+    }
+}

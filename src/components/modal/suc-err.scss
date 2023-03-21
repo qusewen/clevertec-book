@@ -1,0 +1,58 @@
+.field {
+  z-index: 999999999999;
+    &-container{
+        position: relative;
+    }
+  display: none;
+  &__body {
+    padding: 24px 32px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -158px;
+  }
+}
+.booking-suc{
+  top: -68px;
+  z-index: 999999999999;
+}
+.field__true{
+    display: block;
+    z-index: 999999999999;
+}
+.error__field {
+  border: 1.5px solid #f42c4f;
+  background: #feebea;
+  z-index: 999999999999;
+}
+.success__field {
+  background: #ebf9f1;
+  border: 1.5px solid #00ca71;
+  z-index: 999999999999;
+}
+.field__img {
+  width: 32px;
+  height: 32px;
+}
+.field__exit {
+  width: 24px;
+  height: 24px;
+}
+.field__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #363636;
+}
+
+.btn__field_close{
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

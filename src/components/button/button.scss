@@ -1,0 +1,42 @@
+.button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  padding: 11px 23px;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  border-radius: 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  position: relative;
+  z-index: 9999;
+}
+.pre_disabled {
+  color: rgb(54, 54, 54);
+  background: #ffffff;
+  border: 1px solid #bfc4c9;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 380px) {
+  .button {
+    flex-direction: column;
+  }
+}
+
+.button:disabled {
+  color:rgb(167, 167, 167);
+  background: #F9F9FA;
+  border: 1px solid #bfc4c9;
+
+}
+button:disabled{
+  color:rgb(167, 167, 167);
+}
