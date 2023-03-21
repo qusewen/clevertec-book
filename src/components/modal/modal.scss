@@ -1,0 +1,90 @@
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(54, 54, 54, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+}
+.active__modal {
+  display: block;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.modal__body {
+  padding: 48px 56px;
+  border-radius: 16px;
+  background: white;
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.modal__title{
+    margin-bottom: 32px;
+}
+.modal__subtitle{
+margin-bottom: 16px;
+}
+.modal__input {
+  border: none;
+  outline: none;
+  background: #f9f9fa;
+  border-radius: 4px;
+  width: 416px;
+  height: 132px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  padding: 19px 12px;
+}
+.modal__button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.modal__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal__exit{
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background: #F9F9FA;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+position: absolute;
+right: 32px;
+top: 32px;
+border: none;
+}
+
+@media (max-width:555px) {
+  .booking-modal{
+    padding: 5px 10px;
+  }
+  .modal__body{
+padding: 5px 10px;
+width:auto;
+  }
+  .modal__title{
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 8px;
+  }
+  .modal__exit{
+    top: 0px;
+    right: 0;
+  }
+}

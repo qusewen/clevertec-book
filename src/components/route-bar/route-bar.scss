@@ -1,0 +1,44 @@
+.route{
+    padding: 20px;
+    background-color: #F9F9FA;
+    &-container{
+        display: flex;
+        align-items: center;
+    }
+    &_img{
+        margin: 0 4px;
+        width: 24px;
+    }
+    &_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #A7A7A7;
+    }
+}
+.error-route{
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+@media (max-width:760px) {
+.route {
+    width: 100%;
+&_text{
+    width: 40%;
+}
+}
+.reviews__button button{
+    width: 98%;
+}
+}
+@media (max-width: 380px) {
+    .route{
+&_text{
+    width: 32%;
+}
+    }
+}

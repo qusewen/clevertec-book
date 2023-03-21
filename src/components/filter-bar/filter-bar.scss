@@ -1,0 +1,12 @@
+.filter__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    &-item{
+display: flex;
+align-items: center;
+    }
+}
+
+

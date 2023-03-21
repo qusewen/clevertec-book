@@ -1,0 +1,28 @@
+.rate{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    &-no-rate{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #A7A7A7;
+    }
+}
+.rate-no-rate{
+    height: 24px;
+}
+
+.star-input{
+    display: none;
+}
+.star-item{
+    margin-right:8px;
+    cursor: pointer;
+    transition: color 200ms;
+    stroke: #FFBC1F;
+  stroke-width: 20;
+}

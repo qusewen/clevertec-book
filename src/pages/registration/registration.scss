@@ -1,0 +1,135 @@
+.registration{
+    background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+    height: 100vh;
+    padding-top: 186px;
+    &__title {
+        margin-top: 180px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 59px;
+      }
+      &__body {
+        display: flex;
+        justify-content: center;
+      }
+      &__form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        background: white;
+        padding: 48px 56px;
+        width: 528px;
+
+        &_title {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          letter-spacing: 0.1px;
+          color: #363636;
+
+          &-second{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+            margin-top: 8px;
+            margin-bottom: 32px;
+          }
+        }
+      }
+    &_teg{
+        display: flex;
+        align-items: center;
+    }
+      &__subtitle {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #a7a7a7;
+        mix-blend-mode: normal;
+        margin-bottom: 32px;
+        padding-left: 12px;
+        &_reg {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #727272;
+          margin-right: 21px;
+        }
+      }
+      &_registration {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        color: #363636;
+      }
+}
+
+.registration_auth{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #363636;
+}
+.reg_btn{
+  margin-top: 20px;
+}
+button:disabled{
+  background: #EBEBEB;
+  color: white;
+}
+.information_error{
+margin-bottom: 36px;
+}
+.reg_input{
+  margin-bottom: 0;
+}
+.reg_error{
+  color: rgb(244, 44, 79);
+
+
+}
+.red_text-error{
+  color: rgb(244, 44, 79);
+}
+.not_error{
+  color:rgb(167, 167, 167);
+}
+.text_error{
+  margin-bottom: 36px;
+}
+.text_none{
+  display: none;
+}
+
+
+@media (max-width:550px) {
+.registration{
+&__form{
+  padding: 24px 16px;
+}
+&__subtitle_reg{
+  margin-bottom: 7px;
+}
+}
+}
+
+.reg_error_pass-item{
+  margin-bottom: 0;
+  }
+
+  .error_margin{
+    position: absolute;
+    top: 60px;
+  }

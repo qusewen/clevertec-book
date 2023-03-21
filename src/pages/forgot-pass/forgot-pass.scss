@@ -1,0 +1,122 @@
+
+.forgot {
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  height: 100vh;
+  &_arrow{
+    margin-right: 15px;
+    padding-bottom: 1px;
+  }
+  &__title{
+padding-left: 56px;
+margin: 32px 0;
+  }
+  &_subtitle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #727272;
+    padding-left: 12px;
+    margin-bottom: 34px;
+  }
+  &_form{
+        padding: 0px 56px 0px;
+        margin-bottom: 16px;
+  }
+  &__body {
+
+    background: white;
+    width: 528px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  &_input {
+    margin-bottom: 2px;
+  }
+  &__auth {
+        border-radius: 10px;
+
+    padding: 23px 56px;
+    background: #F9F9FA;
+    &_link {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: #727272;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &_btn{
+    width: 100%;
+  }
+  &_section_reg{
+padding: 0 56px 48px;
+  }
+}
+.reset_title{
+  padding-top: 48px;
+}
+.reset_input{
+  margin-bottom: 7px;
+}
+.reset_input_second{
+  margin-bottom: 68px;
+}
+
+.input_password_reset{
+top: 15px;
+}
+.reset_info{
+  margin-bottom: 36px;
+
+}
+.forgot_btn:disabled{
+  background: #EBEBEB;
+  color: white;
+}
+.error_text_forgot{
+  color: rgb(244, 44, 79);
+  margin-bottom: 7px;
+}
+.check_invalid{
+  display: none;
+}
+.check{
+  display: block;
+right: 30px;
+position: absolute;
+top:8px;
+}
+
+@media (max-width:550px) {
+.forgot{
+ &__auth{
+  padding: 23px 55px 23px 18px;
+ }
+ &__body{
+  width: 288px;
+ }
+&__title{
+padding-left: 16px;
+}
+&_form{
+padding: 0 16px;
+}
+&_subtitle{
+  margin-bottom: 0;
+}
+&_btn{
+  margin: 20px 0 16px;
+}
+
+}
+.forgot_section_reg{
+padding:0 16px 50px 16px;
+}
+}
+.error_information{
+  color: rgb(244, 44, 79);;
+}

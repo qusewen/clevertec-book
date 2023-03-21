@@ -1,0 +1,14 @@
+.treaty{
+  padding:47px 0 62px ;
+  &-container{
+    display: flex;
+  }
+  &__information{
+    margin-left: 6px;
+  }
+}
+@media (max-width:768px) {
+.treaty__information{
+  width: 98%;
+}
+}

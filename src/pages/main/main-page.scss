@@ -1,0 +1,15 @@
+.main{
+    padding: 47px 0 62px;
+    &-container{
+        display: flex;
+    }
+    
+}
+
+
+
+@media (max-width:380px) {
+    .main{
+        padding-top: 8px;
+    }
+}
